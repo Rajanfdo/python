@@ -504,7 +504,7 @@ fuel = float(input("Enter fuel used (in liters): "))
 mileage = distance / fuel
 
 
-if mileage > 50:
+if mileage > 0:
     print("Excellent")
 
 elif mileage >= 30 and mileage <= 50:
